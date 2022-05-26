@@ -1,0 +1,64 @@
+.modal-container {
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, .08);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal > h4 {
+    font-size: 1.35em;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn-container > button {
+    font-size: 1.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border: 1.5px solid;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: .3s ease;
+}
+
+.btn-container > button:nth-child(1) {
+    border-color: #5f27a8;
+    color: #5f27a8;
+}
+
+.btn-container > button:nth-child(1):hover {
+    background: #5f27a8;
+    color: white;
+}
+
+.btn-container > button:nth-child(2) {
+    border-color: crimson;
+    color: crimson;
+}
+
+.btn-container > button:nth-child(2):hover {
+    background: crimson;
+    color: white;
+}
