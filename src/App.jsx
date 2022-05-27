@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/navbar/Navbar";
-import "../src/App.css";
 import CartItems from "./components/cartitems/CartItems";
 import { useDispatch, useSelector } from "react-redux";
 import { calcTotals } from "./features/cart/cartSlice";
